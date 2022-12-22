@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    padding: 3rem;
+    background: lightsalmon;
+    margin: 5rem;
+    border-radius: 7px;
+    border-bottom: solid 4px red;
+
+}
+
+#informe {
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+    border: solid black;
+    border-top: none;
+    background: rgb(67, 32, 8);
+    font-size: 25px;
+    color: aliceblue;
+}
+
+input {
+    font-size: 22px;
+
+}
+
+section,
+.resultado {
+    text-align: center;
+    font-size: 2rem;
+}
+
+button {
+    font-size: 22px;
+    color: blue;
+    background-color: rgb(153, 225, 226);
+}
+
+.resultado {
+
+    display: flex;
+    align-content: center;
+    column-gap: 30px;
+    column-count: 4;
+}
